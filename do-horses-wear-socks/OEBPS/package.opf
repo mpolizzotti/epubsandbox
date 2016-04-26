@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" unique-identifier="db-id" version="3.0">
+    <metadata>
+        <dc:title>Do Horses Wear Socks?</dc:title>
+        <dc:creator>Matthew Polizzotti</dc:creator>
+        <dc:identifier id="db-id">no-isbn</dc:identifier>
+        <dc:language>en</dc:language>
+        <meta property="dcterms:modified">2016-04-26T12:00:00Z</meta>
+    </metadata>
+
+    <manifest>
+        <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+        <item id="preface-image" href="images/preface-image.jpg" media-type="image/jpeg"/>
+
+        <item id="preface" href="text/1-preface.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter-1" href="text/2-chapter-1.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter-2" href="text/3-chapter-2.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter-3" href="text/4-chapter-3.xhtml" media-type="application/xhtml+xml"/>
+        <item id="chapter-4" href="text/5-chapter-4.xhtml" media-type="application/xhtml+xml"/>
+
+        <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav" />
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    </manifest>
+
+    <spine toc="ncx">
+        <itemref idref="preface"/>
+        <itemref idref="chapter-1"/>
+        <itemref idref="chapter-2"/>
+        <itemref idref="chapter-3"/>
+        <itemref idref="chapter-4"/>
+    </spine>
+</package>

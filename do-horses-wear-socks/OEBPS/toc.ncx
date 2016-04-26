@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+
+    <head>
+        <meta name="dtb:uid" content="no-isbn"/>
+        <meta name="dtb:depth" content="1"/>
+    </head>
+
+    <docTitle>
+        <text>Do Horses Wear Socks?</text>
+    </docTitle>
+
+    <navMap>
+        <navPoint id="navpoint-1" playOrder="1">
+            <navLabel><text>Preface</text></navLabel>
+            <content src="text/1-preface.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-2" playOrder="2">
+            <navLabel><text>1. Horses Wear Shoes, Don't they?</text></navLabel>
+            <content src="text/2-chapter-1.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-3" playOrder="3">
+            <navLabel><text>2. Horses Shoes and Horse Socks.</text></navLabel>
+            <content src="text/3-chapter-2.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-4" playOrder="4">
+            <navLabel><text>3. Mr. Ed and his Famous Socks.</text></navLabel>
+            <content src="text/4-chapter-3.xhtml"/>
+        </navPoint>
+        <navPoint id="navpoint-5" playOrder="5">
+            <navLabel><text>4. Enough Horsing Around.</text></navLabel>
+            <content src="text/5-chapter-4.xhtml"/>
+        </navPoint>
+    </navMap>
+</ncx>
